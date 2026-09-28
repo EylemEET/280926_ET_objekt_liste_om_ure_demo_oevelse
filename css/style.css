@@ -1,0 +1,23 @@
+/**
+* fil: style.css
+* for: index.html
+**/
+
+/*Farver definderes i variablen :root*/
+/*css-variabelen samles i :root, så de kan bruges globalt i hele css-filen. Variablen oprettes med --navn: værdi; fx --farve: #fffff = hvid*/
+:root {
+  --white_beige: #F2EBE2;
+  --black_mat: #28282B;
+  --chartreuse:#7fff00;
+  --bg_colour: #000000;
+  --roed: #FF0000;
+}
+
+
+/* Her er din CSS */
+body {
+  background-color:var(--white_beige);
+  color:var(--black_mat);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+}
